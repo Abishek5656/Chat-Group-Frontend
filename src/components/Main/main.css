@@ -1,0 +1,87 @@
+.mainContainer {
+    background-color: #252329;
+    height: 100vh;
+    overflow: scroll;
+    padding:  5.5rem 0.75rem;
+}
+
+.main_container-content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.user_profile {
+    color: white;
+    width: 45px;
+    height: 40px;
+}
+
+.user_profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.user_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.user_content p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #E0E0E0;
+}
+
+.user_details h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #828282;
+}
+
+.user_details {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user_details span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #828282;
+}
+
+
+@media only screen and (min-width: 640px) {
+    .mainContainer {
+        padding: 6rem 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mainContainer {
+        padding: 7rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* .mainContainer {
+        padding: 7rem 2rem;
+    } */
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 1536px) {
+  
+}
